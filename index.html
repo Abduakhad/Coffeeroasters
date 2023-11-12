@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     
@@ -58,7 +59,6 @@
     <!-- HEADER END -->
     
     <!-- MAIN START -->
-    
     <main class="site-main">
         
         <!-- HERO START -->
@@ -163,16 +163,80 @@
             <div class="container">
                 <div class="works-wrappers">
                     <h2 class="works-title">How it works</h2>
-                    <hr class="works-hr">
+                    <div class="oval-bg">
+                        <img src="./assets/images/oval-bg.png" alt="oval logo">
+                    </div>
+
+                    <ul class="works-list">
+                        <li class="works-list__item works-item">
+                            <span class="works-item__num">01</span>
+                            <h3 class="works-item__title">Pick your coffee</h3>
+                            <p class="works-item__desc">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+                        </li>
+                        <li class="works-list__item works-item">
+                            <span class="works-item__num">02</span>
+                            <h3 class="works-item__title">Choose the frequency</h3>
+                            <p class="works-item__desc">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
+                        </li>
+                        <li class="works-list__item works-item">
+                            <span class="works-item__num">03</span>
+                            <h3 class="works-item__title">Receive and enjoy!</h3>
+                            <p class="works-item__desc">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
+                        </li>
+                    </ul>
+                    <button class="works-btn" type="button">Create your plan</button>
                 </div>
             </div>
         </section>
         <!-- WORKS END -->
             
             
-        </main>
-        <!-- MAIN END -->
+    </main>
+    <!-- MAIN END -->
+
+
+    <!-- FOOTER START -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="site-footer__wrapper">
+                <a class="site-footer__link" href="#">
+                    <img class="site-footer__link-img" src="./assets/images/company-footer-logo.svg" alt="Coffee Company logo">
+                </a>
+                <nav class="site-footer__nav">
+                    <ul class="site-footer__nav-list site-footer__list">
+                        <li class="site-footer__list-item">
+                            <a class="site-footer__list-link" href="#">HOME</a>
+                        </li>
+                        <li class="site-footer__list-item">
+                            <a class="site-footer__list-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="site-footer__list-item">
+                            <a class="site-footer__list-link" href="#">CREATE YOUR PLANE</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="site-footer__social-list social-list">
+                    <li class="social-list__item">
+                        <a class="social-list__item-link" href="#">
+                            <i class='bx bxl-facebook-square'></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__item-link" href="#">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__item-link" href="#">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
         
-        <script src="./js/main.js"></script>
+    <script src="./js/main.js"></script>
     </body>
     </html>
